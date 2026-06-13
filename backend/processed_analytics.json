@@ -1,0 +1,341 @@
+{
+    "summary": {
+        "total_stations": 8990,
+        "total_schedules": 417080,
+        "total_train_paths": 5208,
+        "total_train_info": 11113,
+        "avg_delay": 38.5,
+        "max_delay": 586.0,
+        "health_index": 74.33,
+        "total_records_analyzed": 636955,
+        "risk_summary": {
+            "low": 464,
+            "medium": 495,
+            "high": 383,
+            "critical": 322
+        }
+    },
+    "train_types": {
+        "Express": 2533,
+        "Passenger": 4545,
+        "Superfast": 1412
+    },
+    "stations_distribution": {
+        "by_state": [
+            {
+                "state": "Other/Unknown",
+                "count": 4593
+            },
+            {
+                "state": "Uttar Pradesh",
+                "count": 529
+            },
+            {
+                "state": "Rajasthan",
+                "count": 451
+            },
+            {
+                "state": "Gujarat",
+                "count": 422
+            },
+            {
+                "state": "Maharashtra",
+                "count": 378
+            },
+            {
+                "state": "West Bengal",
+                "count": 345
+            },
+            {
+                "state": "Madhya Pradesh",
+                "count": 316
+            },
+            {
+                "state": "Karnataka",
+                "count": 301
+            },
+            {
+                "state": "Tamil Nadu",
+                "count": 253
+            },
+            {
+                "state": "Punjab",
+                "count": 212
+            }
+        ],
+        "by_zone": [
+            {
+                "zone": "Other/Unknown",
+                "count": 4532
+            },
+            {
+                "zone": "NR",
+                "count": 590
+            },
+            {
+                "zone": "WR",
+                "count": 504
+            },
+            {
+                "zone": "NWR",
+                "count": 426
+            },
+            {
+                "zone": "SR",
+                "count": 335
+            },
+            {
+                "zone": "SCR",
+                "count": 294
+            },
+            {
+                "zone": "SWR",
+                "count": 290
+            },
+            {
+                "zone": "NER",
+                "count": 264
+            },
+            {
+                "zone": "ER",
+                "count": 263
+            },
+            {
+                "zone": "NFR",
+                "count": 262
+            }
+        ]
+    },
+    "class_availability": {
+        "First_AC": 439,
+        "Second_AC": 1417,
+        "Third_AC": 1650,
+        "Sleeper": 1759,
+        "First_Class": 167,
+        "Chair_Car": 403
+    },
+    "delay_by_season": {
+        "Winter": {
+            "avg_delay": 36.3,
+            "count": 100
+        }
+    },
+    "delay_by_frequency": {
+        "Daliy": {
+            "avg_delay": 38.1,
+            "count": 70
+        },
+        "Weekly": {
+            "avg_delay": 34.45,
+            "count": 20
+        },
+        "\u00a0Tri-Weekly": {
+            "avg_delay": 27.4,
+            "count": 10
+        }
+    },
+    "delay_vs_distance": [
+        {
+            "range": "0-200 km",
+            "avg_delay": 0
+        },
+        {
+            "range": "200-500 km",
+            "avg_delay": 25.5
+        },
+        {
+            "range": "500-1000 km",
+            "avg_delay": 33.05
+        },
+        {
+            "range": "1000-2000 km",
+            "avg_delay": 41.83
+        },
+        {
+            "range": "2000+ km",
+            "avg_delay": 20.4
+        }
+    ],
+    "top_trains": [
+        {
+            "train_name": "Howrah Duronto",
+            "average_delay_minutes": 347.5
+        },
+        {
+            "train_name": "Guwahati Sbc Express",
+            "average_delay_minutes": 143.1891891891892
+        },
+        {
+            "train_name": "Howrah Mail",
+            "average_delay_minutes": 104.86466165413533
+        },
+        {
+            "train_name": "Sbc Guwahati Express",
+            "average_delay_minutes": 87.97368421052632
+        },
+        {
+            "train_name": "Duronto Express",
+            "average_delay_minutes": 65.42307692307692
+        },
+        {
+            "train_name": "Kerala Express",
+            "average_delay_minutes": 63.7125
+        },
+        {
+            "train_name": "Coromandel Express",
+            "average_delay_minutes": 56.83870967741935
+        },
+        {
+            "train_name": "Tamil Nadu Exp",
+            "average_delay_minutes": 40.26086956521739
+        },
+        {
+            "train_name": "Vikramshila Express",
+            "average_delay_minutes": 39.28947368421053
+        },
+        {
+            "train_name": "Devagiri Express",
+            "average_delay_minutes": 37.11764705882353
+        }
+    ],
+    "reliable_trains": [
+        {
+            "train_name": "Kolkata Rajdhani",
+            "average_delay_minutes": 7.625,
+            "reliability_score": 92.38
+        },
+        {
+            "train_name": "Gatimaan Express",
+            "average_delay_minutes": 7.8,
+            "reliability_score": 92.2
+        },
+        {
+            "train_name": "Rajdhani",
+            "average_delay_minutes": 8.38888888888889,
+            "reliability_score": 91.61
+        },
+        {
+            "train_name": "Swarna Jayanti Rajdhani",
+            "average_delay_minutes": 8.933333333333334,
+            "reliability_score": 91.07
+        },
+        {
+            "train_name": "Vande Bharat",
+            "average_delay_minutes": 9.08,
+            "reliability_score": 90.92
+        },
+        {
+            "train_name": "Chennai Vande Bharat",
+            "average_delay_minutes": 9.384615384615385,
+            "reliability_score": 90.62
+        },
+        {
+            "train_name": "Palakkad Superfast",
+            "average_delay_minutes": 9.621621621621621,
+            "reliability_score": 90.38
+        },
+        {
+            "train_name": "Shatabdi",
+            "average_delay_minutes": 10.48936170212766,
+            "reliability_score": 89.51
+        },
+        {
+            "train_name": "Pandian Exp",
+            "average_delay_minutes": 11.095238095238095,
+            "reliability_score": 88.9
+        },
+        {
+            "train_name": "August Kranti Rajdhani",
+            "average_delay_minutes": 12.478260869565217,
+            "reliability_score": 87.52
+        }
+    ],
+    "stations": [
+        {
+            "station_name": "AKOLA JN",
+            "average_delay_minutes": 429.5
+        },
+        {
+            "station_name": "TATANAGAR JN",
+            "average_delay_minutes": 338.5
+        },
+        {
+            "station_name": "BILASPUR JN",
+            "average_delay_minutes": 299.5
+        },
+        {
+            "station_name": "DANKUNI",
+            "average_delay_minutes": 149.0
+        },
+        {
+            "station_name": "RAMPUR HAT",
+            "average_delay_minutes": 132.0
+        },
+        {
+            "station_name": "SAMALKOT JN",
+            "average_delay_minutes": 126.5
+        },
+        {
+            "station_name": "NIDADAVOLU JN",
+            "average_delay_minutes": 124.0
+        },
+        {
+            "station_name": "RAJAMUNDRY",
+            "average_delay_minutes": 122.16666666666667
+        },
+        {
+            "station_name": "ANNAVARAM",
+            "average_delay_minutes": 119.0
+        },
+        {
+            "station_name": "TUNI",
+            "average_delay_minutes": 118.0
+        }
+    ],
+    "busy_stations": [
+        {
+            "station_name": "SABARMATI JN",
+            "schedule_count": 342
+        },
+        {
+            "station_name": "KANPUR CENTRAL",
+            "schedule_count": 312
+        },
+        {
+            "station_name": "ITARSI JN",
+            "schedule_count": 293
+        },
+        {
+            "station_name": "GHAZIABAD",
+            "schedule_count": 287
+        },
+        {
+            "station_name": "SAHIBABAD",
+            "schedule_count": 285
+        },
+        {
+            "station_name": "HOWRAH JN",
+            "schedule_count": 283
+        },
+        {
+            "station_name": "VIJAYAWADA JN",
+            "schedule_count": 264
+        },
+        {
+            "station_name": "KOPAR ROAD",
+            "schedule_count": 262
+        },
+        {
+            "station_name": "MUGHAL SARAI JN",
+            "schedule_count": 259
+        },
+        {
+            "station_name": "VADODARA JN",
+            "schedule_count": 254
+        }
+    ],
+    "distances": {
+        "max_distance": 4260.0,
+        "avg_distance": 281.4
+    }
+}

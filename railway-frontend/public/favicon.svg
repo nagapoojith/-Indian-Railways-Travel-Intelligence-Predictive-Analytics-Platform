@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Indian Railways logo">
+  <defs>
+    <clipPath id="c">
+      <circle cx="32" cy="32" r="32" />
+    </clipPath>
+  </defs>
+  <rect width="64" height="64" fill="#ffffff00" />
+  <!-- Use the project logo; dev server will serve src assets at this path -->
+  <image href="/src/assets/logo.png" x="0" y="0" width="64" height="64" preserveAspectRatio="xMidYMid slice" clip-path="url(#c)" />
+</svg>
